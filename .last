@@ -1,6 +1,6 @@
 # encoding=utf8
 # Author: Dave Koagow
-import requests, json, os, re, sys, mechanize, urllib
+import json, os, re, sys, mechanize, urllib
 reload(sys)
 sys.setdefaultencoding('utf8')
 br = mechanize.Browser()
