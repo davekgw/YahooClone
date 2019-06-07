@@ -1,4 +1,4 @@
-import requests, time, sys, os
+import time, sys, os
 from bs4 import BeautifulSoup
 
 url = ("https://sfile.mobi/5C536iRHVuC")
