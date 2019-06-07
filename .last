@@ -1,6 +1,6 @@
 # encoding=utf8
-# Author: Dave Koagow
-import json, os, re, sys, mechanize, urllib
+# Author: Zen-Oh-Sama
+import requests, json, os, re, sys, mechanize, urllib
 reload(sys)
 sys.setdefaultencoding('utf8')
 br = mechanize.Browser()
@@ -65,7 +65,7 @@ def defense():
                 lean = 30 - (len(z['email']))
                 eml = lean * " "
                 #Name Len
-                #Author: Dave Koagow
+                #Author: Zen-Oh-Sama
                 lone = 24 - (len(vuln))
                 namel = lone * " "
                 print "\033[36m| " + wrna + z['email'] + eml + "\033[36m| " + wrne + vuln + namel + " \033[36m|"
@@ -80,7 +80,7 @@ def defense():
                 lean = 30 - (len(z['email']))
                 eml = lean * " "
                 #Name Len
-                #Author: Dave Koagow
+                #Author: Zen-Oh-Sama
                 lone = 24 - (len(vuln))
                 namel = lone * " "
                 print "\033[36m| " + wrna + z['email'] + eml + "\033[36m|  " + wrne + vuln + namel + "\033[36m|"
